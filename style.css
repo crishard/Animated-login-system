@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(33, 49, 49);
+}
+
+form{
+    width: 300px;
+    padding: 30px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+form h1{
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#user, #pass{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 18% auto;
+    text-align: center;
+    border: 2.5px solid #3498db;
+    padding: 12px 10px;
+    outline: none;
+    color: blanchedalmond;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#user:focus, #pass:focus{
+    width: 240px;
+    border-color: #2ecc71;
+}
+
+#botom{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2.5px solid #2ecc71;
+    padding: 14px 40px;
+    color: aliceblue;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.2;
+    cursor: pointer;
+}
+
+#botom:hover{
+
+    background-color: #3498db;
+}
